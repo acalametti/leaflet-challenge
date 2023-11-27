@@ -8,7 +8,7 @@ This project utilizes Leaflet and D3.js to create an interactive map visualizing
 
 ## Dependencies
 
-Make sure to include the necessary dependencies:
+These were the programs used for this project
 
 - [Leaflet](https://leafletjs.com/)
 - [D3.js](https://d3js.org/)
@@ -39,7 +39,7 @@ d3.json('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geoj
 
 ## Earthquake Visualization
 
-The earthquake data was visualized on the Leaflet map using the GeoJSON. Each earthquake wasrepresented by a circle marker, and the marker size is dependent on the earthquake's magnitude. The color of the marker is determined by the depth of the earthquake.
+The earthquake data was visualized on the Leaflet map using the GeoJSON. Each earthquake was represented by a circle marker, and the marker size was dependent on the earthquake's magnitude. The color of the marker was determined by the depth of the earthquake.
 
 ```javascript
 L.geoJSON(data, {
